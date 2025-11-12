@@ -3,12 +3,9 @@
 This project adapts **DPR-style bi-encoders** to the **text→image retrieval** domain and integrates **QuRe’s score-drop heuristic** for **hard negative mining**.  
 We benchmark against **DPR-inspired strategies (ANCE, ICT)** and compare **CLIP + QuRe** vs **CLIP + Random** sampling.
 
-
-
 ## Comparison of Hard Negative Sampling Methods
 
 **Note**: 1% Train Set + 25% Test Set
-
 
 | Metric | CLIP + QuRe | CLIP + Random | Δ (Improvement) |
 |:-------|-------------:|--------------:|----------------:|
@@ -23,4 +20,3 @@ We benchmark against **DPR-inspired strategies (ANCE, ICT)** and compare **CLIP 
 | **Precision@8 / Recall@8** | 62.4500% | 61.6664% | **+0.78%** |
 | **Precision@9 / Recall@9** | 64.4011% | 63.9053% | **+0.50%** |
 | **Precision@10 / Recall@10** | 66.2882% | 65.8564% | **+0.43%** |
-
